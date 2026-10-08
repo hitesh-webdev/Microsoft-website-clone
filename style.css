@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-left {
+    width: 43%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-s;
+    gap: 20px;
+
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+
+.nav-left img {
+    height: 20px;
+    width: 108px;
+}
+
+.nav-right {
+    width: 43%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-s;
+    font-size: 13px;
+    gap: 20px;
+
+}
+
+.ul-style {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.span1 {
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 600;
+    padding-left: 3px;
+    font-size: 13px;
+}
+
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+
+li:hover {
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 8px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: red;
+    height: 60%;
+    width: 100%;
+    margin-top: -300px;
+    position: relative;
+}
+
+.hero .img-hero {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hero-div {
+    position: absolute;
+   font-family: "Segoe UI Variable", "Segoe UI", sans-serif;
+   font-weight: 600;
+    top: 30%;
+    left: 10%;
+}
+
+.hero-div span {
+
+    padding: 8px 16px;
+    position: absolute;
+    background-color: #FFB900;
+    border-radius: 17%;
+    top: -35%;
+    left: 6px;
+}
+
+.hero-div h1 {
+    color: white;
+    width: 91%;
+    font-size: 45px;
+}
+
+.hero-div p {
+        color: white;
+    width: 89%;
+    position: absolute;
+    top: 127px;
+}
+
+.hero-div .span2{
+       left: -3px;
+    position: absolute;
+    padding: 14px 15px;
+    background-color: #FFFFFF;
+    font-family: "Segoe UI Variable", "Segoe UI", sans-serif;
+    top: 195px;
+    border-radius: 10px;
+
+}
