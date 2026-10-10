@@ -8,21 +8,22 @@ html,
 body {
     height: 100%;
     width: 100%;
+    display: flex;
 }
 
 main {
+    display: flex;
     height: 100%;
     width: 100%;
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
 }
 
 .nav-left {
+    display: flex;
     width: 43%;
     height: 7%;
-    display: flex;
     align-items: center;
     justify-content: left;
     font-size: 13px;
@@ -97,7 +98,7 @@ li:hover {
     background-color: red;
     height: 60%;
     width: 100%;
-    margin-top: -300px;
+    /* margin-top: -8%; */
     position: relative;
 }
 
@@ -110,8 +111,8 @@ li:hover {
 
 .hero-div {
     position: absolute;
-   font-family: "Segoe UI Variable", "Segoe UI", sans-serif;
-   font-weight: 600;
+    font-family: "Segoe UI Variable", "Segoe UI", sans-serif;
+    font-weight: 600;
     top: 30%;
     left: 10%;
 }
@@ -133,14 +134,14 @@ li:hover {
 }
 
 .hero-div p {
-        color: white;
+    color: white;
     width: 89%;
     position: absolute;
     top: 127px;
 }
 
-.hero-div .span2{
-       left: -3px;
+.hero-div .span2 {
+    left: -3px;
     position: absolute;
     padding: 14px 15px;
     background-color: #FFFFFF;
@@ -148,4 +149,108 @@ li:hover {
     top: 195px;
     border-radius: 10px;
 
+}
+
+.category {
+    width: 100%;
+    height: 20%;
+    /* margin-top: -9%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.category .img-cate1 {
+    padding-left: 50px;
+}
+
+.img-cate2 {
+    padding-left: 25px;
+}
+
+.img-cate3 {
+    padding-left: 35px;
+}
+
+.img-cate4 {
+    padding-left: 28px;
+}
+
+.category img {
+    margin-bottom: 8px;
+}
+
+
+.category span {
+    font-size: 15px;
+    text-decoration: underline 1.5px solid #2A446F;
+    text-underline-offset: 6px;
+    color: #2A446F;
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.product-card {
+    width: 100%;
+    height: 60%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.product-card div {
+    height: 427px;
+    width: 310px;
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;
+    background-color: #FFFFFF;
+}
+
+.img-card {
+    height: 165px;
+    width: 294px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.product-card span {
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 24px;
+
+}
+
+.product-card p {
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    width: 262px;
+    margin: 24px;
+    font-size: 15px;
+}
+
+.product-card button{
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #0078d4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#btn-card1{
+  margin-top: 23%;
+}
+
+#btn-card2{
+  margin-top: 16%;
+    
 }
