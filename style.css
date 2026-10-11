@@ -75,7 +75,7 @@ main {
 .fas {
     font-weight: 600;
     padding-left: 3px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
@@ -90,7 +90,6 @@ main {
 li:hover {
     text-decoration: underline 2px solid black;
     text-underline-offset: 8px;
-    margin-top: 2px;
     cursor: pointer;
 }
 
@@ -199,7 +198,7 @@ li:hover {
     align-items: center;
     justify-content: center;
     gap: 13px;
-  
+
 }
 
 .product-card div {
@@ -288,8 +287,14 @@ li:hover {
 
 }
 
+
+.feat1:hover{
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+
 .feat1 span {
-       font-size: 24px;
+    font-size: 24px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     padding-top: 103px;
@@ -297,15 +302,15 @@ li:hover {
 }
 
 .feat1 p {
-        font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     width: 548px;
     margin-top: -19%;
     margin-right: 6%;
 }
 
-.feat1 button{
-        width: 176px;
+.feat1 button {
+    width: 176px;
     height: 40px;
     background-color: #0078d4;
     color: white;
@@ -334,4 +339,330 @@ li:hover {
     height: 465px;
     object-fit: cover;
     border-radius: 15px;
+}
+
+
+
+.Business-section {
+    width: 100%;
+    height: 631px;
+    background-color: #DCEEF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+}
+
+.Business-section div {
+    height: 479px;
+    width: 310px;
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+
+
+
+}
+
+.Business-section div:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-business {
+    height: 165px;
+    width: 294px;
+    border-radius: 20px;
+    margin-left: 7px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.Business-section span {
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 24px;
+
+
+}
+
+.Business-section .p-busi {
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 1px;
+}
+
+.Business-section p {
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    width: 262px;
+    margin: 24px;
+    font-size: 15px;
+}
+
+.Business-section button {
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #0078d4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#btn-business1 {
+    margin-top: 11%;
+}
+
+#btn-business2 {
+    margin-top: 27%;
+
+}
+
+#btn-business3 {
+    margin-top: 35%;
+}
+
+#btn-business4 {
+    margin-top: 20%;
+
+}
+
+.Business-section h1 {
+    position: absolute;
+    margin-top: -56px;
+    font-family: Segoe Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+.banner {
+    width: 100%;
+    height: 577px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+
+}
+
+
+
+.banner1 {
+    width: 668px;
+    height: 481px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.banner1:hover{
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.banner1 span {
+    font-size: 34px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 103px;
+    padding-right: 212px;
+}
+
+.banner1 p {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    width: 548px;
+    margin-top: -19%;
+    margin-right: 6%;
+}
+
+.banner1 button {
+    width: 106px;
+    height: 40px;
+    background-color: #0078d4;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    top: 5%;
+    right: 38%;
+}
+
+.banner2 {
+    width: 628px;
+    height: 481px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner2 img {
+    width: 620px;
+    height: 465px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.follow-section {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.follow-section .follow-span {
+    font-size: 16px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+.follow-links {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.follow-links img {
+    height: 32px;
+    width: 32px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    padding: 5px;
+
+}
+
+.footer {
+    height: 415px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 48px 0px 0px;
+    padding: 0px 72px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer div {
+    height: 332px;
+    width: 216px;
+    background-color: #f2f2f2;
+    padding: 0px 12px 0px 0px;
+}
+
+.footer div span {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 36px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.footer div li {
+    color: #616161;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    padding: 0px 0px 8px;
+    list-style: none;
+    line-height: 23px;
+    margin-top: 5px;
+
+}
+
+.footer div li:hover {
+    text-decoration: underline 0.5px solid gray;
+    text-underline-offset: 0.5px;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: 83px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -39px;
+
+}
+
+.fb-1 {
+    width: 48%;
+    background-color: #f2f2f2;
+    height: 40px;
+    
+}
+
+.fb-1 ul{
+   
+    gap: 22px;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.fb-2 ul{
+   
+    gap: 22px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.fb-2 {
+    width: 45%;
+    height: 40px;
+    background-color: #f2f2f2;
+
+}
+
+.fb-1 li {
+    list-style: none;
+    color: #616161;
+    font-size: 11px;
+}
+.fb-2 li {
+    list-style: none;
+    color: #616161;
+    font-size: 11px;
+}
+
+.fb-1 li:hover {
+    text-decoration: underline 0.5px solid gray;
+    text-underline-offset: 0.5px;
+}
+.fb-2 li:hover {
+    text-decoration: underline 0.5px solid gray;
+    text-underline-offset: 0.5px;
 }
