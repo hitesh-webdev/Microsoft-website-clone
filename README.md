@@ -77,6 +77,7 @@ The desktop layout is the base. Responsiveness is added with media queries at th
 ├── Index.html   # Page markup
 ├── style.css    # All styles, including responsive media queries
 └── README.md
+```
 
 ## Notes
 - Images are loaded directly from Microsoft's CDN, so you need an internet connection to see them.
