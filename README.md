@@ -78,18 +78,22 @@ The desktop layout is the base. Responsiveness is added with media queries at th
 ├── style.css    # All styles, including responsive media queries
 └── README.md
 
-Notes
+## Notes
 - Images are loaded directly from Microsoft's CDN, so you need an internet connection to see them.
 - Icons come from the Font Awesome CDN.
+
 Future Improvements
 - Mobile navigation menu (hamburger) for small screens
 - Working links and a functional search
 - Accessibility improvements (better alt text, keyboard navigation)
 - Self-hosted images for faster loading
+
 Acknowledgement
 Thanks to my mentor, Devendra Dhote, for the guidance and feedback while I was learning frontend development.
+
 Author
 Hitesh Verma
 - GitHub: [@hitesh-webdev](https://github.com/hitesh-webdev)
+
 License
 This project is for educational purposes only.
